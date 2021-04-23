@@ -28,7 +28,7 @@ parser.add_argument('-s',
 parser.add_argument('--send-ok',
                     action='store_true',
                     dest='ok',
-                    help='Put red color in the card or if not put red color')
+                    help='Put green color in the card or if not put red color')
 
 
 args = parser.parse_args()
