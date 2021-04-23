@@ -1,10 +1,10 @@
 SendTeamsMessage
 ===============
 Send a little card to your Teams channel  
-
+-----
 Usage
 -----
-
+::
 usage: SendTeamsMessage [-h] [-t TITLE] [-m MESSAGE] [-H WEBHOOK] [-s SUMMARY]
                         [--send-ok]
 
