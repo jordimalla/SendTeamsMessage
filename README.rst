@@ -1,6 +1,13 @@
 SendTeamsMessage
 ===============
 Send a little card to your Teams channel  
+------------
+Installation
+------------
+Using PIP via Github::
+
+pip install git+https://github.com/jordimalla/SendTeamsMessage.git#egg=SendTeamsMessage
+
 -----
 Usage
 -----
