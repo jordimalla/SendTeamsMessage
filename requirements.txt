@@ -1,1 +1,1 @@
-pip pymsteams
+pymsteams=0.1.14
