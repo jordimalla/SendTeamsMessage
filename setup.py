@@ -9,6 +9,7 @@ setup(
     author='Jordi Malla',
     license='MIT',
     packages=['SendTeamsMessage'],
+    scripts=['bin/SendTeamsMessage'],
     long_description=open_file('README.rst').read(),
     install_requires=open_file('requirements.txt').readlines(),
     zip_safe=True
