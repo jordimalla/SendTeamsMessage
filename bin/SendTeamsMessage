@@ -52,6 +52,7 @@ try:
   myTeamsMessage.text(args.message)
   myTeamsMessage.color(color)
   myTeamsMessage.send()
+  log_info("Message sended")
 except Exception as e:
   log_warning(str(e))
   sys.exit(1)
