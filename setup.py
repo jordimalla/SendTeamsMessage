@@ -9,5 +9,6 @@ setup(
     author='Jordi Malla',
     license='MIT',
     packages=['SendTeamsMessage'],
+    install_requires=open_file('requirements.txt').readlines(),
     zip_safe=True
 )
