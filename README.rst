@@ -4,7 +4,8 @@ Send a little card to your Teams channel
 -----
 Usage
 -----
-::
+CLI Usage is as follows::
+
 usage: SendTeamsMessage [-h] [-t TITLE] [-m MESSAGE] [-H WEBHOOK] [-s SUMMARY]
                         [--send-ok]
 
