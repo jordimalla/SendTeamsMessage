@@ -2,6 +2,9 @@ import os
 from setuptools import setup
 from SendTeamsMessage import __version__
 
+def open_file(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname))
+
 setup(
     name='SendTeamsMessage',
     version=__version__,
